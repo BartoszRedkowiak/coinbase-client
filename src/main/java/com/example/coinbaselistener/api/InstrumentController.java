@@ -15,7 +15,7 @@ public class InstrumentController {
     @Autowired
     InstrumentCrudService service;
 
-    @GetMapping("api/prices")
+    @GetMapping("api/instruments")
     public ResponseEntity getPrices(){
         Set<InstrumentDto> instruments = service.getAll();
         return ResponseEntity.ok(instruments);
