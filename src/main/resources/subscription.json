@@ -1,0 +1,12 @@
+{
+  "type": "subscribe",
+  "product_ids": [
+    "BTC-USD",
+    "BTC-EUR",
+    "ETH-USD",
+    "ETH-EUR"
+  ],
+  "channels": [
+    "ticker"
+  ]
+}
